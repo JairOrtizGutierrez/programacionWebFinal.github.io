@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Outfit&display=swap');
+
+:root {
+    --color1: #242879;
+    --color2: #060815;
+    --color3: #6b6b6b;
+    --color4: #fb5850;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    -webkit-transition: 0.5s ease-in-out all;
+    transition: 0.5s ease-in-out all;
+}
+
+nav #menu ul {
+    list-style: none;
+}
+
+nav #menu li {
+    font-size: 17px;
+    padding: 30px 26px;
+}
+
+nav #menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav #consultation button {
+    background-color: var(--color1);
+    padding: 13px 31px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+section article:first-child {
+    height: 100vh;
+    padding-top: 86px;
+    background-image: -webkit-gradient(linear,left top, left bottom,from(#eae5e6),color-stop(#e4e3f0),to(#fff)) !important;
+    background-image: linear-gradient(to bottom,#eae5e6,#e4e3f0,#fff) !important;
+}
+
+article #banner-text {
+    padding-bottom: 120px;
+}
+
+article #banner-text > div:nth-child(1) span {
+    font-size: 17px;
+    color: var(--color4);
+    line-height: 15px;
+    letter-spacing: 1.76px;
+}
+
+article #banner-text > div:nth-child(2) span {
+    font-family: 'Jost', sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 72px;
+    color: var(--color2);
+}
+
+article #banner-text > div:nth-child(3) span {
+    font-size: 19px;
+    line-height: 28px;
+    color: var(--color3);
+}
+
+article #banner-text > div:nth-child(4) > div:first-child button {
+    background-color: var(--color1);
+    padding: 17px 50px;
+    border-radius: 50px;
+    font-size: 18px;
+}
+
+article #banner-text > div:nth-child(4) > div:last-child {
+    color: #6b6b6b;
+    font-size: 18px;
+}
+
+article #banner-text > div:nth-child(4) > div:last-child button {
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    font-size: 22px;
+}
+
+article #carousel {
+    position: absolute;
+    bottom: 50px;
+    background-color: #fff;
+}
+
+article #carousel > div {
+    padding: 0 110px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 31px 40px 0px rgb(0 0 0 / 11%);
+    box-shadow: 0px 31px 40px 0px rgb(0 0 0 / 11%);
+}
+
+article #carousel .glide__slide {
+    padding-top: 10px;
+}
+
+article #service-title span:first-child {
+    font-size: 17px;
+    color: var(--color4);
+    line-height: 15px;
+    letter-spacing: 1.76px;
+}
+
+article #service-title span:last-child {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+    color: var(--color2);
+}
+
+article .service {
+    -webkit-box-shadow: 0px 20px 69px 0px rgb(8 37 92 / 7%);
+    box-shadow: 0px 20px 69px 0px rgb(8 37 92 / 7%);
+    margin: 15px;
+    padding: 50px 38px;
+}
+
+article .service > span {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--color2);
+}
+
+article .service > div > span {
+    font-size: 17px;
+    color: var(--color3);
+}
+
+article .service > button > span {
+    font-size: 18px;
+    color: var(--color4);
+}
+
+article .table {
+    vertical-align: middle;
+    -webkit-box-shadow: 0px 31px 40px 0px rgb(0 0 0 / 11%);
+    box-shadow: 0px 31px 40px 0px rgb(0 0 0 / 11%);
+}
+
+footer > div > div {
+    border-top: 2px solid #0000001A;
+}
+
+footer #copyright {
+    font-size: 15px;
+    color: var(--color3);
+}
+
+footer button span {
+    font-size: 15px;
+    color: #000;
+}
